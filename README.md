@@ -1,7 +1,7 @@
 ## addpath.rb
 Quicker way of appending new paths to ```~/.bashrc```.
 
-    ~/utility.scripts$ ./addpath.rb -h
+    ~/utility.scripts $ ./addpath.rb -h
     Usage: addpath.rb [-h] [-t | -d] [-c] [-p]
         -p, --prepend                    Prepend new path
         -t, --this                       Working directory will be added to $PATH
