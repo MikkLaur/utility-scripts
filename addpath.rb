@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-BASHRC_PATH = ENV['HOME']+"/.bashrc_testfile"
+BASHRC_PATH = ENV['HOME']+"/.bashrc"
 abort("#{BASHRC_PATH} not found. Aborting...") unless File.file?(BASHRC_PATH)
 
 require 'optparse'
